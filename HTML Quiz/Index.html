@@ -2,24 +2,48 @@
 <html>
     <head>
         <title>Chiratt's Portfolio Prototype</title>
-        <link rel="stylesheet" href="Index_Stylesheet.css"> 
+        <link rel="stylesheet" href="Stylestyle.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
     </head>
     <body>
-        <h1 style="text-align: center">Home</h1>
-        <div id="Nav Bar">
-            <ul>
-                <li><a href="Index.html">Home</a></li>
-                <li><a href="SC.html">Events</a></li>
-                <li><a href="Certificates.html">Certificates</a></li>
-                <li><a href="Myself.html">About</a></li>
-            </ul>
+        <div class="header">
+            <h1>Home</h1>
         </div>
-        <div style="display:inline-block;vertical-align:top;">
-            <img src="https://i.pinimg.com/originals/1e/3e/37/1e3e3738d81b9db4f6b6505b236a996a.gif" alt="Portfolio" width="1050px" height="300px">
+        <div class="topnav">
+            <a href="Index.html">Home</a>
+            <a href="SC.html">Events</a>
+            <a href="Certificates.html">Certificates</a>
+            <a href="Myself.html">About Me</a>
+        </div>
+        <div class="row">
+            <div class="column">
+                <h2>What is this?</h2>
+                <p>This website is a virtual portfolio. A portfolio is something to showcase myself, so what better way to do it with my passion: code. Since I had just learned more about HTML, I decided it was a great time to create a prototype of a portfolio I want to make in HTML before making it use a program. So, this website was made to test my skills in HTML and CSS. It is also a quiz for my Computer 2 class assignment in high school. So I could kill two birds with one stone by making a portfolio and assignment in one sitting.</p>
             </div>
-            <div style="display:inline-block;">
-                <h2>Text</h2>
-                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            <div class="column">
+                <center>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png" alt="Computer clip art" width="200" height="200">
+                </center>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="row">
+                <a href="https://www.instagram.com/thames_chiratt/" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" alt="Instagram logo" width="50" height="50">
+                </a>
+                <img src="https://images.squarespace-cdn.com/content/v1/589a1063be65949bde4f0a3e/1584123144817-J6T9NL7S1RQWM0IRHCGN/ZOKp8LH.png?format=1500w" alt="Discord logo" width="50" height="50" onclick="DiscordAlert()">
+                <script>
+                    function DiscordAlert(){
+                        alert("Thames#5504")
+                    }
+                </script>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/LINE_logo.svg/2048px-LINE_logo.svg.png" alt="Line logo" width="50" height="50" onclick="LineAlert()">
+                <script>
+                    function LineAlert(){
+                        alert("Line ID: chiratt.thames")
+                    }
+                </script>
+            </div>
         </div>
     </body>
 </html>

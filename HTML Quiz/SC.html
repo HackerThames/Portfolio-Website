@@ -2,18 +2,38 @@
 <html>
     <head>
         <title>Chiratt's Portfolio Prototype</title>
-        <link rel="stylesheet" href="Index_Stylesheet.css"> 
+        <link rel="stylesheet" href="Stylestyle.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
     </head>
     <body>
-        <h1 style="text-align: center">Events</h1>
-        <div id="Nav Bar">
-            <ul>
-                <li><a href="Index.html">Home</a></li>
-                <li><a href="SC.html">Events</a></li>
-                <li><a href="Certificates.html">Certificates</a></li>
-                <li><a href="Myself.html">About</a></li>
-            </ul>
+        <div class="header">
+            <h1>Events</h1>
+        </div>
+        <div class="topnav">
+            <a href="Index.html">Home</a>
+            <a href="SC.html">Events</a>
+            <a href="Certificates.html">Certificates</a>
+            <a href="Myself.html">About Me</a>
         </div>
         
+        <div class="footer">
+            <div class="row">
+                <a href="https://www.instagram.com/thames_chiratt/" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" alt="Instagram logo" width="50" height="50">
+                </a>
+                <img src="https://images.squarespace-cdn.com/content/v1/589a1063be65949bde4f0a3e/1584123144817-J6T9NL7S1RQWM0IRHCGN/ZOKp8LH.png?format=1500w" alt="Discord logo" width="50" height="50" onclick="DiscordAlert()">
+                <script>
+                    function DiscordAlert(){
+                        alert("Thames#5504")
+                    }
+                </script>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/LINE_logo.svg/2048px-LINE_logo.svg.png" alt="Line logo" width="50" height="50" onclick="LineAlert()">
+                <script>
+                    function LineAlert(){
+                        alert("Line ID: chiratt.thames")
+                    }
+                </script>
+            </div>
+        </div>
     </body>
 </html>
